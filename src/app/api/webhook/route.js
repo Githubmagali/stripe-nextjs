@@ -2,7 +2,7 @@ const {NextResponse} = require('next/server');
 import { headers } from 'next/headers';
 import Stripe from 'stripe';
 
-const stripe = new Stripe('sk_test_51OFLfaBARSdRFOPFXS1Fo80bhLrg04JrunizBT5BFez3PxtpM8BPoUF6xdLpR2eF1lvAlOXr15keJ3Q4J3LxogEC00BUTQdhR7')
+const stripe = new Stripe('EC00BUTQdhR7') //https://dashboard.stripe.com/test/dashboard
 
 
 const endpointSecet = 'lkfdflñdsfdsf'
